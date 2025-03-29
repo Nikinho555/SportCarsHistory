@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.titulo {
+    transform: translateX(+1%);
+    font-style: italic;
+    justify-content: center;
+    font-size: 35px;
+    animation: titulo 5s infinite;
+}
+
+@keyframes titulo {
+    0% {
+        color: black;
+    }
+
+    10% {
+        color: black;
+    }
+
+    15% {
+        color: white;
+    }
+
+    20% {
+        color: white;
+    }
+}
+
+.botões {
+    width: 658px;
+    height: 92px;
+    background-image: linear-gradient(#0021b6, #ffffff);
+    border-radius: 10px;
+}
+
+
+
+.btnAudi {
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 3px 2px;
+    border-color: black;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.btnLambo {
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 3px 2px;
+    border-color: black;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.linha {
+    color: white;
+    font-size: 35px;
+}
+
+.imgbm {
+    border-radius: 10%;
+    width: 350px;
+    height: 250px;
+}
+
+.Karl { 
+    color: white;
+}
+
+.primeirabmw {
+    width: 300px;
+    height: 300px;
+    border-style: ridge;
+border-color: blue;
+border-radius: 20px;
+}
+
+.bmw1 {
+    color: white;
+    font-size: 35px;
+}
+
+.infodixi {
+    display: flex;
+    font-size: 25px;
+    color: white;
+
+}
+
+.motordixi {
+    width: 658px;
+    height: 92px;
+    background-image: linear-gradient(#0021b6, #ffffff);
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.bmwatual{
+    color: white;
+    font-size: 35px;
+}
+
+.linhaatual{
+    color: white;
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: blue;
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: blue;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border-style: ridge;
+border-color: blue;
+}
+
+.img4{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+border-style: ridge;
+border-color: blue;
+}
+
+@media screen and (max-width: 768px){
+    .colaborador img{
+        width: 30%;
+    }
+} 
+    
+.btnmotor{
+    width: 658px;
+    height: 92px;
+    background-image: linear-gradient(#0021b6, #ffffff);
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+    
+
