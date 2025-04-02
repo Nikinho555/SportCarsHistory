@@ -1,40 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    body{
+    body {
         background-color: black;
+       overflow-x: hidden;
     }
-.ab{
-    color: white;
+
+    .titulo {
+    transform: translateX(+1%);
+    font-style: italic;
+    justify-content: center;
+    font-size: 35px;
+    animation: titulo 5s infinite;
 }
 
-.cd{
-    display: flex;
-transform: translateY(+150%);
+@keyframes titulo {
+    0% {
+        color: black;
+    }
+
+    10% {
+        color: black;
+    }
+
+    15% {
+        color: white;
+    }
+
+    20% {
+        color: white;
+    }
 }
 
-.ef{
-    display: flex;
-    transform: translateY(+292%);
+.botões {
+    width: 1349px;
+    height: 92px;
+    background-image: linear-gradient(#0021b6, #ffffff);
+    border-radius: 10px;
 }
 
-.gh{
-display: flex;
-transform: translateY(+405%);
+.btnbmw {
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 3px 2px;
+    border-color: black;
+    border-style: ridge;
+    cursor: pointer;
 }
+
+.btnAudi {
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 3px 2px;
+    border-color: black;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.btnLambo {
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 3px 2px;
+    border-color: black;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+    .ab {
+        color: white;
+    }
+
+    .cd {
+        display: flex;
+        transform: translateY(+150%);
+    }
+
+    .ef {
+        display: flex;
+        transform: translateY(+292%);
+    }
+
+    .gh {
+        display: flex;
+        transform: translateY(+405%);
+    }
+
+    @media sceen and (max-width: 768px){
+        .body{
+            width: 100%;
+            flex-direction: column;
+        }
+    }
 </style>
-<body>
-    <h1 class="ab">-Especificações e recursos detalhados para o BMW Série 5 Plug-in Hybrid 550e xDrive 2025, incluindo dimensões, potência, motor, capacidade, economia de combustível, transmissão, tipo de motor, cilindros, transmissão e muito mais.
-        Garantia básica: 4 anos / 50.000 mi.
-       <li class="cd"> -Capacidade de carga: 18,4 pés cúbicos.</li>
-       <li class="ef"> -Peso do meio-fio: 4.894 libras.</li>
-        <li class="gh"> -Tipo de acionamento: tração nas quatro rodas</li>
-        </h1>
-</body>
-</html>
 
+<body>
+    <section>
+        <div class="botões">
+            <h1 class="titulo">Sportcars History</h1>
+            <a class="btnbmw" href="indexBMW.html">Galeria Bmw</a>
+            <a class="btnAudi" href="">Galeria Audi</a>
+            <a class="btnLambo" href="">Galeria Lamborghini</a>
+        </div>
+    </section>
+    <h1 class="ab">-Especificações e recursos detalhados para o BMW Série 5 Plug-in Hybrid 550e xDrive 2025, incluindo
+        dimensões, potência, motor, capacidade, economia de combustível, transmissão, tipo de motor, cilindros,
+        transmissão e muito mais.
+        Garantia básica: 4 anos / 50.000 mi.
+      
+        <li class="cd"> -Capacidade de carga: 18,4 pés cúbicos.</li>
+        <li class="ef"> -Peso do meio-fio: 4.894 libras.</li>
+        <li class="gh"> -Tipo de acionamento: tração nas quatro rodas</li>
+      
+    </h1>
+</body>
+
+</html>
